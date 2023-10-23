@@ -10,7 +10,7 @@ app = FastAPI()
 
 origins = [
     "http://localhost:3000",
-    "https://crema-web.onrender.com",
+    "http://crema-web.onrender.com",
 ]
 
 app.add_middleware(
